@@ -1,0 +1,55 @@
+body {
+    background: rgb(39, 39, 39);
+}
+
+#id{
+    width: 100%;;
+    font-family: monospace;
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(148, 101, 182);
+}
+
+.cats {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.strongcat {
+    width: 95%;
+    background-color: rgb(211, 0, 0);
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.mura {
+    width:95%;
+    background-color: rgb(67, 124, 231);
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.docto {
+    width: 95%;
+    justify-content: center;
+    background-color: black;
+    display: inline-flex;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+}
